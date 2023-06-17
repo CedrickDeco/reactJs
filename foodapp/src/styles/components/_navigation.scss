@@ -1,0 +1,43 @@
+.navigation{
+  ul{
+    display: flex;
+    margin: 40px 30px 0 20px;
+    a{ //en css dans le react le NavLink c'est a
+      text-decoration: none;
+        padding: 10px; 
+        font-size: 1.2rem;  
+        color: $decoBleu;   
+        li {
+          transition: 0.2s;
+            cursor: pointer;
+            &:hover {
+              background: $decoYellow;
+              color: $color-1;
+            }
+          }
+    }
+        .nav-active {
+          position: relative;
+    
+          &::after {
+            content: "";
+            height: 4px;
+            width: 0;
+            background: $decoBleu;
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: anim 0.6s ease forwards;
+
+            @keyframes anim {
+              to {
+                width: 80%;
+              }
+            }
+          }
+        }
+    
+  }
+}

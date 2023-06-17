@@ -1,0 +1,34 @@
+.plat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 180px;
+  max-width: 280px;
+  border: 2px solid salmon;
+  margin: 15px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  h2{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    text-align: center;
+  }
+  img {
+    width: 90%;
+    border-radius: 10px;
+    margin: 5px auto;
+  }
+    
+  p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical; // alignement vertical dans le display webkit-box
+    -webkit-line-clamp: 8; //ce a pour role de faire en sorte que les textes ne depassent pas 8 lignes. Ne fonctionne que lorsque le display est à webkit-box
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  p.origine {
+    margin-bottom: 10px;
+    margin-top: 6px;
+  }
+}

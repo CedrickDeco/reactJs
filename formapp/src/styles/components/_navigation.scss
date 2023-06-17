@@ -1,0 +1,41 @@
+.navigation{
+  display: flex;
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 50px;
+  a{
+    text-decoration: none;
+    color: $decoBleu;
+    margin-right: 15px;
+    li {
+        transition: 0.2s;
+        cursor: pointer;
+    
+        &:hover {
+          background: $decoYellow;
+          color: $color-1;
+        }
+      }
+  }
+  .nav-active {
+    position: relative;
+    &::after {
+      content: "";
+      height: 4px;
+      width: 0;
+      background: $color-1;
+      position: absolute;
+      border-radius: 10px;
+      top: 17px;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: anim 0.6s ease forwards;
+  
+      @keyframes anim {
+        to {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
