@@ -1,0 +1,115 @@
+@media screen {
+  .service5 {
+  padding: 30px 7%;
+  .service5-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    .right {
+      .right-container {
+        height: 100%;
+        .hexagon-container {
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .hexagon {
+            clip-path: inset(12% 0 19% 0);
+            background: url(../../assets/img/b.jpeg) center/contain;
+            width: 550px;
+            height: 360px;
+            overflow: hidden;
+            box-shadow: 0px 5px 10px 0px $blue;
+            transition: 0.5s;
+            margin-top: -40px;
+            &:hover{
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+    .left {
+      .left-container {
+        .content {
+          .title {
+            text-align: left;
+            margin: 20px 0 10px 7%;
+            font-family: $rosario-italic;
+            font-size: 2rem;
+            text-transform: uppercase;
+          }
+          .text {
+            p {
+              font-family: $rosario-italic;
+              font-size: 1.3rem;
+              text-align: justify;
+              text-indent: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 1279px) {
+  .service5 {
+  padding: 30px 7%;
+  .service5-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    .right {
+      .right-container {
+        height: 100%;
+        margin-top: 50px;
+        .hexagon-container {
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .hexagon {
+            clip-path: inset(12% 0 19% 0);
+            background: url(../../assets/img/b.jpeg) center/contain;
+            width: 550px;
+            height: 360px;
+            overflow: hidden;
+            box-shadow: 0px 5px 10px 0px $blue;
+            transition: 0.5s;
+            margin-top: -40px;
+            &:hover{
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+    .left {
+      .left-container {
+        .content {
+          .title {
+            text-align: left;
+            margin: 20px 0 10px 7%;
+            font-family: $rosario-italic;
+            font-size: 2rem;
+            text-transform: uppercase;
+          }
+          .text {
+            p {
+              font-family: $rosario-italic;
+              font-size: 1.3rem;
+              text-align: justify;
+              text-indent: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}

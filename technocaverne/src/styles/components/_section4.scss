@@ -1,0 +1,118 @@
+@media screen and (min-width: 1279px) {
+  .section4{
+  padding: 30px 7%;
+  .top{
+    margin-bottom: 50px;
+    .top-content{
+      text-align: center;
+      margin: 80px 0 15px;
+      .title{
+        font-family: $rosario-regular;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding-bottom: 20px;
+      }
+      .subtitle{
+        p{
+          font-family: $rosario-italic;
+        }
+      }
+    }
+  }
+  .bottom{
+    .cards{
+      margin: 100px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .card{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .bottom{
+          .title{
+            text-align: center;
+            margin-top: -20px;
+            font-family: $rosario-italic;
+            font-weight: 700;
+            text-transform: uppercase;
+            span{
+              font-family: $charm;
+              color: $red;
+            }
+          }
+          p{
+            font-family: $rosario-italic;
+              font-size: 1.4rem;
+            text-align: justify;
+            text-indent: 40px;
+            text-overflow : ellipsis;
+          }
+        }
+      }
+    }
+  }
+}
+}
+@media screen and (max-width: 1279px) {
+  .section4{
+  padding: 30px 2%;
+  .top{
+    margin-bottom: 50px;
+    .top-content{
+      text-align: center;
+      margin: 80px 0 15px;
+      .title{
+        font-family: $rosario-regular;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding-bottom: 20px;
+      }
+      .subtitle{
+        p{
+          font-family: $rosario-italic;
+        }
+      }
+    }
+  }
+  .bottom{
+    .cards{
+      margin: 100px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .card{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+        .bottom{
+          .title{
+            text-align: center;
+            margin-top: -20px;
+            font-family: $rosario-italic;
+            font-weight: 700;
+            text-transform: uppercase;
+            span{
+              font-family: $charm;
+              color: $red;
+            }
+          }
+          p{
+            font-family: $rosario-italic;
+            font-size: 1.4rem;
+            text-align: justify;
+            text-indent: 40px;
+            text-overflow : ellipsis;
+          }
+        }
+      }
+    }
+  }
+}
+}

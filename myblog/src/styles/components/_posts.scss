@@ -1,0 +1,46 @@
+.posts{
+  padding: 0 20px;
+  overflow: hidden;
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .card{
+      width: 300px;
+      margin-bottom: 40px;
+      .card-container{
+        .image{
+          img{
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+          }
+        }
+        .card-body{
+          padding: 5px;
+          .time-and-author {
+            display: flex;
+            justify-content: space-between;
+            font-family: $tangerine;
+            font-size: 1.3rem;
+            margin: 0px 0 15px;
+          }
+          .card-title{
+            text-align: center;
+            p{
+              font-family: $lugrasimo;
+            }
+          }
+          
+          .card-content{
+            p{
+              text-indent: 10%;
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}

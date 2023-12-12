@@ -1,0 +1,525 @@
+@media screen and (min-width: 1279px) {
+  .section7{
+  .section7-container{
+    .prefooter{
+      background: $vio;
+      border-bottom: 1px solid $blue;
+      .prefooter-container{
+        display: flex;
+        justify-content: center;
+        //align-items: center;
+        width: auto;
+        margin: 0px 5%;
+        padding: 30px 0;
+        .block1{
+          width: 60%;
+          .block1-container{
+            margin-top: 20px;
+            .top{
+              .logo {
+                display: flex;
+                margin-left: 0px;
+                width: 30vw;
+                background: $white;
+                width: fit-content;
+                padding: 10px ;
+                .round-logo {
+                  margin-top: 4px;
+                  img {
+                    height: 90px;
+                    width: 90px;
+                  }
+                }
+                .text-logo{
+                  margin-left: 15px;
+                  p{
+                    font-size: 2.3rem;
+                    font-family: $oswald;
+                    text-transform: uppercase;
+                    font-weight: bolder;
+                    margin-bottom: 0px;
+                    span{
+                      color: $blue
+                    }
+                  }
+                  .sous-titre{
+                    font-family: $oswald;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: -10px;
+                    .text-1{
+                      font-weight:500;
+                      font-size: 1.3rem;
+                    }
+                    .text-2{
+                      font-weight:300;
+                      font-size: 1.3rem;
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+            }
+            .bottom{
+                color: $black;
+                padding-top: 30px;
+                font-family: $rosario-italic;
+                .slogan{
+                  padding: 0 10% 25px 0;
+                  text-align: justify;
+                  text-indent: 40px;
+                  span{
+                    font-family: $fondamento;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                  }
+                }
+                // .address{
+                //   .adress{
+                //     display: flex;
+                //     align-items: center;
+                //     .icon{
+                //       font-size: 1.4rem;
+                //       color: $red;
+                //       margin-right: 2%;
+                //       margin-top: -3%;
+                //     }
+                //     .address-text{
+                //       padding: 0 10% 25px 0;
+                //       text-align: justify;
+                //     }
+                //   }
+                // }
+                // .phones-numbers{
+                //   .mobile-number{
+                //     display: flex;
+                //     align-items: center;
+                //     .icon{
+                //       margin-right: 2%;
+                //       font-size: 1.6rem;
+                //       color: $red;
+                //     }
+                //     .text{
+                //       text-transform: uppercase;
+                //       margin-right: 2%;
+                //     }
+                //   }
+                //   .office-number{
+                //     display: flex;
+                //     align-items: center;
+                //     .icon{
+                //       margin-right: 2%;
+                //       font-size: 1.3rem;
+                //       color: $red;
+                //     }
+                //     .text {
+                //       text-transform: uppercase;
+                //       margin-right: 2%;
+                //     }
+                //   }
+                // }
+                // .email{
+                //   display: flex;
+                //   align-items: center;
+                //   .icon{
+                //     font-size: 1.4rem;
+                //     color: $red;
+                //     margin-right: 2%;
+                //   }
+                //   .email-text{
+                //   p {
+                //     a {
+                //       color: $black;
+                //     }
+                //   }
+                // }
+                // }
+              }
+          }
+        }
+        .block2{
+          width: 55%;
+          position: relative;
+            &::before {
+              content: '';
+              position: absolute;
+              top: 40%;
+              left: -6%;
+              transform: translateY(-40%);
+              height: 80%;
+              width: 8px;
+              border-radius: 10px;
+              background: $red;
+            }
+            &::after {
+              content: '';
+              position: absolute;
+              top: 40%;
+              right: -6%;
+              transform: translateY(-40%);
+              height: 80%;
+              width: 8px;
+              border-radius: 10px;
+              background: $red;
+            }
+          text-align: center;
+          color: $black;
+          .block2-container{
+            .title{
+              margin: 10px 0 8px 0;
+              font-family: $rosario-italic;
+              font-size: 1.9rem;
+              text-transform: capitalize;
+            }
+            .bottom {
+              color: $black;
+              font-family: $rosario-italic;
+              margin-left: 10px;
+              .adresses{          
+                  .address {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    &:last-child{
+                      margin-bottom: o;
+                    }
+                    .icon {
+                      margin-right: 2%;
+                      font-size: 1.3rem;
+                      color: $red;
+                    }
+                
+                    .text {
+                      text-transform: uppercase;
+                      margin-right: 2%;
+                    }
+                    .lines{
+                      text-align: left;
+                      margin-left: 10px;
+                    }
+                  }
+              }
+              .phones-numbers{
+                .mobile-number{
+                  display: flex;
+                  align-items: center;
+                  .icon{
+                    margin-right: 2%;
+                    font-size: 1.6rem;
+                    color: $red;
+                  }
+                  .text{
+                    text-transform: uppercase;
+                    margin-right: 2%;
+                  }
+                }
+                .office-number{
+                  display: flex;
+                  align-items: center;
+                  .icon{
+                    margin-right: 2%;
+                    font-size: 1.3rem;
+                    color: $red;
+                  }
+                  .text {
+                    text-transform: uppercase;
+                    margin-right: 2%;
+                  }
+                }
+              }
+              .email{
+                display: flex;
+                align-items: center;
+                .icon{
+                  font-size: 1.4rem;
+                  color: $red;
+                  margin-right: 2%;
+                }
+                .email-text{
+                p {
+                  a {
+                    color: $black;
+                  }
+                }
+              }
+              }
+            }
+          }
+        }
+        .block3{
+          width: 30%;
+          color: $black;
+          .block3-container{
+            .top{
+              .title{
+                text-align: center;
+                font-family: $rosario-italic;
+                font-size: 1.9rem;
+                text-transform: capitalize;
+                margin: 10px 0 8px 50px;
+              }
+            }
+            .bottom{
+              padding-left: 15%;
+              ul{
+                font-family: $rosario-italic;
+                text-transform: capitalize;
+                line-height: 40px;
+                text-align: center;
+                
+                a {
+                    cursor: pointer;
+                    color: $black;
+                    font-size: 1.2rem;
+                  }
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer{
+      background: $vio;
+      padding: 20px;
+      text-align: center;
+      color: $black;
+      font-family: $rosario-italic;
+    }
+  }
+}
+}
+@media screen and (max-width: 1279px)  {
+  .section7{
+  .section7-container{
+    .prefooter{
+      background: $vio;
+      border-bottom: 1px solid $blue;
+      .prefooter-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+        .block1{
+          width: 100%;
+          .block1-container{
+            padding: 20px;
+            .top{
+              display: flex;
+              justify-content: center;
+              .logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 0px;
+                width: 30vw;
+                background: $white;
+                width: fit-content;
+                padding: 10px ;
+                .round-logo {
+                  margin-top: 4px;
+                  img {
+                    height: 90px;
+                    width: 90px;
+                  }
+                }
+                .text-logo{
+                  margin-left: 15px;
+                  p{
+                    font-size: 2.3rem;
+                    font-family: $oswald;
+                    text-transform: uppercase;
+                    margin-bottom: 0px;
+                    span{
+                      color: $blue
+                    }
+                  }
+                  .sous-titre{
+                    font-family: $oswald;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin-top: -10px;
+                    .text-1{
+                      font-weight:500;
+                      font-size: 1.3rem;
+                    }
+                    .text-2{
+                      font-weight:300;
+                      font-size: 1.3rem;
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+            }
+            .bottom{
+              color: $black;
+              padding-top: 30px;
+              font-family: $rosario-italic;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              .slogan{
+                text-align: justify;
+                text-indent: 40px;
+                span{
+                  font-family: $fondamento;
+                  font-size: 1.2rem;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+        .block2{
+          width: 100%;
+          text-align: center;
+          color: $black;
+          .block2-container{
+            padding: 0 10px;
+            .title{
+              margin: 20px 0;
+              font-family: $rosario-italic;
+              font-size: 1.9rem;
+              text-transform: capitalize;
+            }
+            .theBottom{
+              display: flex;
+              justify-content: center;
+              .bottom {
+                color: $black;
+                font-family: $rosario-italic;
+                margin-left: 10px;
+                text-align: center;
+                .adresses {
+                  .address {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    &:last-child {
+                      margin-bottom: o;
+                    }
+                    .icon {
+                      margin-right: 2%;
+                      font-size: 1.3rem;
+                      color: $red;
+                    }
+                    .text {
+                      text-transform: uppercase;
+                      margin-right: 2%;
+                    }
+                    .lines {
+                      text-align: left;
+                      margin-left: 10px;
+                    }
+                  }
+                }
+                .phones-numbers {
+                  .mobile-number {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                      margin-right: 2%;
+                      font-size: 1.6rem;
+                      color: $red;
+                    }
+                    .text {
+                      text-transform: uppercase;
+                      margin-right: 2%;
+                    }
+                  }
+                  .office-number {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                      margin-right: 2%;
+                      font-size: 1.3rem;
+                      color: $red;
+                    }
+                    .text {
+                      text-transform: uppercase;
+                      margin-right: 2%;
+                    }
+                  }
+                }
+                .email {
+                  display: flex;
+                  align-items: center;
+                  .icon {
+                    font-size: 1.4rem;
+                    color: $red;
+                    margin-right: 2%;
+                  }
+                  .email-text {
+                    p {
+                      a {
+                        color: $black;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .block3{
+          width: 100%;
+          color: $black;
+          .block3-container{
+            padding: 20px;
+            .top{
+              text-align: center;
+              .title{
+                text-align: center;
+                font-family: $rosario-italic;
+                font-size: 1.9rem;
+                text-transform: capitalize;
+                margin: 20px 0 10px 0;
+              }
+            }
+            .bottom{
+              text-align: center;
+              ul{
+                font-family: $rosario-italic;
+                text-transform: capitalize;
+                display: flex;
+                line-height: 40px;
+                flex-direction: column;
+                justify-content: center;
+                a{
+                  cursor: pointer;
+                  color: $black;
+                  font-size: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer{
+      background: $vio;
+      padding: 20px;
+      text-align: center;
+      color: $black;
+      font-family: $rosario-italic;
+    }
+  }
+}
+}
+@media screen and (max-width: 500px) {
+  .block2{
+    width: 100%;
+    text-align: center;
+    color: $black;
+    .block2-container{
+      padding: 0 10px;
+      .title{
+        margin: 20px 0;
+        font-family: $rosario-italic;
+        font-size: 1.9rem;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

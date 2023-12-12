@@ -1,0 +1,40 @@
+.devis{
+  background: $vio;
+  padding: 20px 7%;
+  .devis-container{
+    display: flex;
+    justify-content: center;
+    .text{
+      font-family: $rosario-italic;
+      font-size: 1.5rem;
+      margin-right: 3%;
+      margin-top: 0.5%;
+      span{
+        font-family: $fondamento;
+      }
+    }
+    .btn{
+      padding: 5px 10px;
+      border: 1px solid $blue;
+      border-radius: 5px;
+      color: $red;
+      font-family: $rosario-italic;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      font-weight: bold;
+      &:hover{
+        border: 1px solid $red;
+        transition: 1.2s;
+        transform: scale(1.1);
+      }
+      a{
+        color: $red;
+
+        &:hover{
+          color: $blue;
+          transition: 1.2s;
+        }
+      }
+    }
+  }
+}

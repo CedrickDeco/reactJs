@@ -1,0 +1,30 @@
+.breadcrumb {
+  background: $vio;
+  width: 100%;
+
+  .breadcrumb-container {
+    .lien {
+      display: flex;
+      padding: 10px;
+      cursor: pointer;
+
+      .nav {
+        &:last-child {
+          color: $red;
+        }
+
+        &:first-child {
+          color: $blue;
+        }
+
+        li {
+          font-size: 1.3rem;
+          font-family: $farsan;
+          text-transform: capitalize;
+          //color: $blue;
+        }
+
+      }
+    }
+  }
+}

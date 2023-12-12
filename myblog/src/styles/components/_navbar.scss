@@ -1,0 +1,83 @@
+//.navbar{
+  // display: flex;
+  // width: 100%;
+  // justify-content: center;
+  // a{
+  //   color: $black;
+  //   margin-right: 4%;
+  //   width: fit-content;
+  //   li{
+  //     font-family: $farsan;
+  //     text-transform: capitalize;
+  //     font-size: 1.4rem;
+  //   }
+  // }
+  // display: flex;
+  // justify-content: center;
+  // width: 100%;
+  // a {
+  //   margin-right: 30px;
+  //   li {
+  //     color: $blue;
+  //     transition: 0.2s;
+  //     cursor: pointer;
+  //     font-family: $farsan;
+  //     text-transform: capitalize;
+  //     font-size: 1.5rem;
+  //     font-weight: 400;
+  //     &:hover {
+  //       color: $red;
+  //       position: relative;
+  //       &::after {
+  //         content: "";
+  //         height: 4px;
+  //         width: 0;
+  //         background: $red;
+  //         position: absolute;
+  //         border-radius: 10px;
+  //         bottom: 0px;
+  //         left: 50%;
+  //         transform: translateX(-50%);
+  //         -webkit-animation: anim 0.3s ease forwards;
+  //         animation: anim 0.6s ease forwards;
+  //         @-webkit-keyframes anim {
+  //           to {
+  //             width: 100%;
+  //           }
+  //         }
+  //         @keyframes anim {
+  //           to {
+  //             width: 100%;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // .nav-active {
+  //   position: relative;
+  //   &::after {
+  //     content: "";
+  //     height: 4px;
+  //     width: 0;
+  //     background: $red;
+  //     position: absolute;
+  //     border-radius: 10px;
+  //     bottom: 0px;
+  //     left: 50%;
+  //     transform: translateX(-50%);
+  //     -webkit-animation: anim 0.3s ease forwards;
+  //     animation: anim 0.6s ease forwards;
+  //     @-webkit-keyframes anim {
+  //       to {
+  //         width: 100%;
+  //       }
+  //     }
+  //     @keyframes anim {
+  //       to {
+  //         width: 100%;
+  //       }
+  //     }
+  //   }
+  // }
+//}

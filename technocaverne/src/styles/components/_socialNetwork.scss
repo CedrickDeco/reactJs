@@ -1,0 +1,28 @@
+.social-network {
+  width: 15vw;
+	font-size: 1.2rem;
+  overflow: hidden;
+	@media screen and (max-width: 650px) {
+		width: 30%;
+	}
+	ul {
+		display: flex;
+		justify-content: space-between;
+		@media screen and (max-width: 450px) {
+			min-width: 100%;
+		}
+    #lang{
+      padding-top: 5px;
+      span{
+        margin-left: 10px;
+        font-family: $farsan;
+        font-weight: bold;
+      }
+    }
+		a {
+			transition: 1.1s ease-out;
+      padding-top: 5px;
+      color: $blue;
+		}
+	}
+}

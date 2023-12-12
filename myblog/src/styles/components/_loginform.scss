@@ -1,0 +1,77 @@
+.le-formulaire{
+  display: flex;
+  flex-direction: column;
+  .title{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 5rem;
+    font-family: $fondamento;
+    text-transform: capitalize;
+    color: $white;
+  }
+  .my-form{
+    background: $glass;
+    //padding: 50px 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    .form-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .inputs{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        input{
+          background: transparent;
+          outline: none;
+          line-height: 40px;
+          border-bottom: 1px solid $blue;
+          font-family: $rosario-italic;
+          color: $yellow;
+          font-size: 1.7rem;
+          &:focus{
+            background: transparent;
+          }
+          &::placeholder{
+            font-size: 1.5rem;
+            color: $placeholder-color;
+            font-family: $rosario-italic;
+            text-transform: capitalize;
+          }
+          }
+          input[type='password']{
+            padding-top: 20%;
+          }
+          .btn{
+            display: flex;
+            justify-content: center;
+            margin-top: 30%;
+          }
+          input[type='submit']{
+            padding: 15px 20px;
+            background: $yellow;
+            line-height: 10px;
+            color: $blue;
+            width: fit-content;
+            font-family: $rosario-italic;
+            font-size: 1.4rem;
+            font-weight: 800;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.6s;
+            z-index: 3;
+          
+            &:hover {
+              scale: 1.08;
+            }
+          }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.logo {
+  //position: absolute;
+  //text-align: center;
+  // font-family: $font-2;
+  // font-size: 1.2rem;
+  // user-select: none;
+  img{
+    display: block;
+    margin: 20px auto;
+  }
+
+  &:after {
+    content: "";
+    height: 24px;
+    width: 24px;
+    border: 1px $color-2 solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: -12px;
+    z-index: -1;
+  }
+}

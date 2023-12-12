@@ -1,0 +1,125 @@
+.sidebar{
+  .sidebar-container{
+    padding: 0px 7px;
+    text-align: center;
+    .about-section{
+      .about-title{
+        padding: 10px 0;
+        font-family: $lugrasimo;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+        position: relative;
+        &::before{
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 1px;
+          width: 100%;
+          background: $blue;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 1px;
+          width: 100%;
+          background: $blue;
+        }
+      }
+      .about-image{
+        background: $vio;
+        padding: 10px 0;
+        margin-right: 10px;
+        border-radius: 10px;
+      }
+    }
+    .bottom-section{
+      padding: 20px 0;
+      .description-block{
+        margin-bottom: 20px;
+        padding: 0 20px;
+        p{
+          font-size: 1.1rem;
+          text-align: justify;
+          text-indent: 10%;
+        }
+      }
+      .categorie-block{
+        .categorie-title{
+          padding: 10px 0;
+          font-family: $lugrasimo;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          margin-bottom: 30px;
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background: $blue;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background: $blue;
+          }
+        }
+        .categories-list{
+          padding: 0 30px;
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      .social-media-block{
+        .social-title{
+          padding: 10px 0;
+          font-family: $lugrasimo;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          margin-bottom: 30px;
+          position: relative;
+        
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background: $blue;
+          }
+        
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background: $blue;
+          }
+        }
+        .social-media{
+          padding: 0 60px;
+          display: flex;
+          justify-content: space-between;
+          .social{
+            color: $blue;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

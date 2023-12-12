@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "allura";
+	src: url(../assets/fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+	font-family: "oswald";
+	src: url(../assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: "charm";
+	src: url(../assets/fonts/Charm-Regular.ttf);
+}
+
+@font-face {
+	font-family: "dancing";
+	src: url(../assets/fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+	font-family: "farsan";
+	src: url(../assets/fonts/Farsan-Regular.ttf);
+}
+
+@font-face {
+	font-family: "fondamento";
+	src: url(../assets/fonts/Fondamento-Regular.ttf);
+}
+
+@font-face {
+	font-family: "greatvibes";
+	src: url(../assets/fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+	font-family: "lugrasimo";
+	src: url(../assets/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+	font-family: "rosario-italic";
+	src: url(../assets/fonts/Rosarivo-Italic.ttf);
+}
+
+@font-face {
+	font-family: "rosario-regular";
+	src: url(../assets/fonts/Rosarivo-Regular.ttf);
+}
+
+@font-face {
+	font-family: "tangerine";
+	src: url(../assets/fonts/Tangerine-Regular.ttf);
+}
+
+$allura: "allura";
+$oswald: "oswald";
+$charm: "charm";
+$dancing: "dancing";
+$farsan: "farsan";
+$fondamento: "fondamento";
+$greatvibes: "greatvibes";
+$lugrasimo: "lugrasimo";
+$rosario-italic: "rosario-italic";
+$rosario-regular: "rosario-regular";
+$tangerine: "tangerine";
+
+$bgc: #fafeff;
+$color-2: #00c1ec;
+$red: #ee4124;
+$beige: #f4f4c0;
+$green: #89ad31;
+$overlay: #00000054;
+$violet: #d2daef;
+$black: #000000;
+$blue: #0071BC;
+$footer-blue: #0071bccb;
+$grey: #F9F9F9;
+$white: #fff;
+$vio: #F4F4F4;
+
+* {
+	margin: 0;
+	padding: 0;
+	//box-sizing: border-box;
+	list-style-type: none;
+	outline: none;
+	border: none;
+	text-decoration: none;
+
+	&::selection {
+		color: $bgc;
+		background: $color-2;
+	}
+}
+
+body {
+	font-family: $allura;
+	background-color: $bgc;
+  color: $black;
+  width: 100vw;
+	}

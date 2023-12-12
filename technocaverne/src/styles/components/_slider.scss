@@ -1,0 +1,279 @@
+.sliders{
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  .banner-1{
+    width: 100%;
+    height: 80vh;
+    animation: slide1 18s linear infinite;
+    img{
+      width: 120%;
+      height: 80vh;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50% , -50%);
+      animation: zoom-out 20s linear infinite;
+    }
+        @keyframes zoom-out {
+          100% {
+            width: 100%;
+          }
+        }
+    .text-box{
+      width: 830px;
+      position: absolute;
+      top: 80px;
+      left: 100px;
+      color: $bgc;
+      background: $overlay;
+      padding: 10px;
+      h1{
+        font-family: $charm;
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: left;
+      }
+      span{
+        width: 100px;
+        height: 1px;
+        background: $green;
+        position: absolute;
+      }
+      p{
+        font-family: $lugrasimo;
+        font-size: 2rem;
+        margin-top: 75px;
+        text-align: justify;
+      }
+    }
+    
+   
+  }
+    .banner-2 {
+      width: 100vw;
+      animation: slide2 18s linear infinite;
+      img {
+        width: 120vw;
+        height: 80vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        animation: zoom-out 18s linear infinite;
+      }
+      @keyframes zoom-out {
+          100% {
+            width: 100%;
+          }
+        }
+  
+      .text-box {
+        width: 900px;
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        color: $bgc;
+        background: $overlay;
+        padding: 10px;
+  
+        h1 {
+          font-family: $charm;
+          font-size: 4.5rem;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+          text-align: left;
+        }
+  
+        span {
+          width: 100px;
+          height: 1px;
+          background: $green;
+          position: absolute;
+        }
+  
+        p {
+          font-family: $lugrasimo;
+          font-size: 2rem;
+          margin-top: 75px;
+          text-align: justify;
+        }
+      }
+    }
+    .banner-3 {
+      width: 100vw;
+      animation: slide3 18s linear infinite;
+      img {
+        width: 120vw;
+        height: 80vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        animation: zoom-out 23s linear infinite;
+      }
+      @keyframes zoom-out {
+          100% {
+            width: 100%;
+          }
+        }
+  
+      .text-box {
+        width: 900px;
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        color: $bgc;
+        background: $overlay;
+        padding: 10px;
+  
+        h1 {
+          font-family: $charm;
+          font-size: 4.5rem;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+          text-align: left;
+        }
+  
+        span {
+          width: 100px;
+          height: 1px;
+          background: $green;
+          position: absolute;
+        }
+  
+        p {
+          font-family: $lugrasimo;
+          font-size: 2rem;
+          margin-top: 75px;
+          text-align: justify;
+        }
+      }
+    }
+
+    .banner-4 {
+      width: 100vw;
+      animation: slide4 18s linear infinite;
+      img {
+        width: 120vw;
+        height: 80vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        animation: zoom-out 18s linear infinite;
+      }
+      @keyframes zoom-out {
+        100%{
+          width: 100%;
+        }
+      }
+  
+      .text-box {
+        width: 900px;
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        color: $bgc;
+        background: $overlay;
+        padding: 10px;
+  
+        h1 {
+          font-family: $charm;
+          font-size: 4.5rem;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+          text-align: left;
+        }
+  
+        span {
+          width: 100px;
+          height: 1px;
+          background: $green;
+          position: absolute;
+        }
+  
+        p {
+          font-family: $lugrasimo;
+          font-size: 2rem;
+          margin-top: 75px;
+          text-align: justify;
+        }
+      }
+    }
+    @keyframes slide1 {
+      0%{
+        visibility: visible;
+      }
+      25%{
+        visibility: hidden;
+      }
+      50%{
+        visibility: hidden;
+      }
+      75%{
+        visibility: hidden;
+      }
+      100%{
+        visibility: visible;
+      }
+    }
+    @keyframes slide2 {
+      0%{
+        visibility: hidden;
+      }
+      25%{
+        visibility: hidden;
+      }
+      50%{
+        visibility: visible;
+      }
+      75%{
+        visibility: hidden;
+      }
+      100%{
+        visibility: hidden;
+      }
+    }
+    @keyframes slide3 {
+      0%{
+        visibility: hidden;
+      }
+      25%{
+        visibility: hidden;
+      }
+      50%{
+        visibility: hidden;
+      }
+      75%{
+        visibility: visible;
+      }
+      100%{
+        visibility: hidden;
+      }
+    }
+    @keyframes slide4 {
+      0%{
+        visibility: hidden;
+      }
+      25%{
+        visibility: hidden;
+      }
+      50%{
+        visibility: hidden;
+      }
+      75%{
+        visibility: hidden;
+      }
+      100%{
+        visibility: visible;
+      }
+    }
+}
+@media screen and (max-width: 1000px) {
+  .sliders{
+    display: none;
+  }
+}

@@ -1,0 +1,113 @@
+.settingsUser{
+  .settingTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2% 40px;
+    .title{
+      color: $blue;
+      font-family: $fondamento;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+    .delete{
+      font-size: 1.2rem;
+      color: $red;
+      margin-top: 13px;
+    }
+  }
+  .profile{
+    .profile-text{
+      padding: 0 2% 10px;
+      font-family: $rosario-regular;
+      font-size: 1.3rem;
+      text-transform: capitalize;
+    }
+    .profile-pic{
+      padding: 0 2% 10px;
+      display: flex;
+      align-items: center;
+      img{
+        height: 100px;
+        width: 100px;
+        margin-right: 2%;
+        border-radius: 20px;
+      }
+      .btn{
+        font-size: 1.4rem;
+        padding: 7px;
+        border: 1px solid transparent;
+        background: $blue;
+        color: $white;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            scale: 1.3;
+          }
+        i{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+      }
+    }
+  }
+  .settingForm{
+    padding: 30px 2% 10px;
+    display: flex;
+    flex-direction: column;
+    label{
+      font-family: $rosario-italic;
+      font-size: 1.4rem;
+      text-transform: capitalize;
+    }
+    input{
+      border-bottom: 1px solid $blue;
+      margin-top: 15px;
+      font-family: $lugrasimo;
+      font-size: 1.1rem;
+      color: $black;
+    }
+    input::placeholder {
+      color: $beige-clear;
+      opacity: 1;
+    }
+    .username{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .the-email {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .the-password {
+      display: flex;
+      flex-direction: column;
+    }
+    .submit-btn{
+      display: flex;
+      justify-content: center;
+      .settingSubmit {
+          width: fit-content;
+          padding: 5px 10px;
+          background: $yellow;
+          color: $blue;
+          font-family: $rosario-regular;
+          font-size: 1.2rem;
+          font-weight: bold;
+          text-transform: capitalize;
+          margin-top: 20px;
+          border: 1px solid $blue;
+          border-radius: 10px;
+          transition: 0.5s;
+          cursor: pointer;
+          &:hover{
+            scale: 1.2;
+          }
+        }
+    }
+  }
+}

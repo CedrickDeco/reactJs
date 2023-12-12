@@ -1,0 +1,63 @@
+.section6{
+  .section6-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    //background: $vio;
+    .top{
+      .title{
+        font-family: $rosario-regular;
+          text-transform: uppercase;
+          font-size: 1.4rem;
+          font-weight: 700;
+          padding: 30px 0;
+      }
+    }
+    .bottom{
+      .bottom-container{
+        background: $white;
+        .logos{
+          margin-bottom: 50px;
+          width: 100vw;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          .logo{
+            margin: 0px 30px;
+            margin-right: 20px;
+            img{
+              height: 100px;
+              width: 150px;
+            }
+          }
+          // .conteneur1{
+          //   overflow: hidden;
+          //   width: 100vw;
+          //   height: 200px;
+          //   //max-width: 100vw;
+          //   margin: 10px auto;
+          //   display: flex;
+          //   flex-direction: column;
+          //   align-items: center;
+          //   justify-content: center;
+          //   box-shadow: 0px 5px 10px 0px $blue;
+          //   .logo1{
+          //     width: 100vw;
+          //     height: 130px;
+          //     background: url(../../assets/img/carousel.png) center/contain;
+          //     // background-size: contain;
+          //     //animation: defilement1 8s linear  infinite;
+          //   }
+          // }
+          // @keyframes defilement1{
+          //     0%{transform: translate(0,0);}
+          //     100%{transform: translate(-180px,0);}
+          // }
+        }
+      }
+    }
+  }
+}

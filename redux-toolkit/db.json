@@ -1,0 +1,35 @@
+{
+  "pictures": [
+    {
+      "artist": "Paulin Frustro",
+      "year": "2021",
+      "photo": "https://picsum.photos/400/352",
+      "addedDate": 1649240229849,
+      "id": 1
+    },
+    {
+      "artist": "Samedixs",
+      "year": "2010",
+      "photo": "https://picsum.photos/400/396",
+      "id": 4
+    },
+    {
+      "artist": "Misan Harriman",
+      "year": "1999",
+      "photo": "https://picsum.photos/400/338",
+      "id": 5
+    },
+    {
+      "artist": "deco",
+      "year": "1111",
+      "photo": "https://picsum.photos/400/334",
+      "id": 6
+    },
+    {
+      "artist": "Niel",
+      "year": "1212",
+      "photo": "https://picsum.photos/400/379",
+      "id": 7
+    }
+  ]
+}

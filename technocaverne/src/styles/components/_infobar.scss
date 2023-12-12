@@ -1,0 +1,151 @@
+.info-bar{
+  display: flex;
+  margin-top: 0px;
+  background: $vio;
+  padding-left: 1%;
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
+      .logo {
+        display: flex;
+        width: 30vw;
+        .round-logo {
+          margin-top: 4px;
+          img {
+            height: 90px;
+            width: 90px;
+          }
+        }
+        .text-logo{
+          margin-left: 15px;
+          p{
+            font-size: 2.3rem;
+            font-family: $oswald;
+            text-transform: uppercase;
+            font-weight: bolder;
+            margin-bottom: 0px;
+            span{
+              color: $blue
+            }
+          }
+          .sous-titre{
+            font-family: $oswald;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: -10px;
+            .text-1{
+              font-weight:500;
+              font-size: 1.3rem;
+            }
+            .text-2{
+              font-weight:300;
+              font-size: 1.3rem;
+              margin-top: -10px;
+            }
+          }
+        }
+      }
+      .infos{
+        width: 70vw;
+        display: flex;
+        //justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        .mobile{
+          display: grid;
+          grid-template-columns: 2vw 4vw 8vw;
+          width: 20vw;
+          .mobile-icone{
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+
+          }
+          .mobile-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $oswald
+          }
+          .mobile-content{
+            font-family: $oswald;
+            font-weight: 400;
+            width: 120%;
+            text-align: left;
+            padding: 0 9%;
+          }
+        }
+        .office{
+          display: grid;
+          grid-template-columns: 2vw 5vw 8vw;
+            width: 22vw;
+          .office-icone{
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+          }
+          .office-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $oswald;
+            padding: 0 2% 0 9%;
+          }
+          .office-content{
+            font-family: $oswald;
+            font-weight: 400;
+            width: 150%;
+            padding: 0 9%;
+          }
+        }
+        .email{
+          display: grid;
+          grid-template-columns: 2.5vw 10vw;
+          width: 20vw;
+          .email-icone{
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+          }
+          .email-content{
+            font-family: $oswald;
+            font-weight: 400;
+            .email-content-2{
+              border: 3px solid $blue;
+              color: $red;
+              padding: 5px;
+              width: fit-content;
+              border-radius: 10px;
+              &:hover {
+                border: 3px solid $red;
+                color: $blue;
+                transform: scale(1.05);
+              }
+              a{
+                cursor: pointer;
+                color: $red;
+                &:hover {
+                  border: 3px solid $red;
+                  color: $blue;
+                  transform: scale(1.05);
+                }
+              }
+            }
+          }
+        }
+        .hour{
+          display: grid;
+          grid-template-columns: 2.3vw 13vw;
+          width: 20vw;
+          .hour-icone{
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+          }
+          .hour-content{
+            font-family: $oswald;
+            font-weight: 400;
+          }
+        }
+      }
+}

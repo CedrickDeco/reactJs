@@ -1,0 +1,14 @@
+.banner{
+  width: 100%;
+  background-color: $blue;
+  .banner-container{
+    text-align: center;
+    .title{
+      font-family: $oswald;
+      color: $beige;
+      text-transform: uppercase;
+      font-size: 2rem;
+      padding: 15px 0;
+    }
+  }
+}

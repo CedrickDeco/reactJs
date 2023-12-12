@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "author": "Patrice",
+      "id": "1",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
+      "likes": 39
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet dolor sit amet",
+      "author": "Samia",
+      "id": "2",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
+      "likes": 18
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "author": "Denis",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
+      "likes": 107,
+      "id": "3"
+    },
+    {
+      "title": "New article",
+      "author": "user42",
+      "id": "9b3qb10",
+      "content": "Here i'm",
+      "likes": 4
+    },
+    {
+      "author": "user42",
+      "title": "Another article",
+      "content": "Yes oooh!!!",
+      "likes": 0,
+      "id": "ijenCh3"
+    }
+  ],
+  "user": [
+    {
+      "pseudo": "user42",
+      "likes": 7,
+      "age": 30,
+      "id": 1
+    }
+  ]
+}

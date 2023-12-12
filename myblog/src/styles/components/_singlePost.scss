@@ -1,0 +1,49 @@
+.singlepost{
+  padding: 0 10px;
+  width: 100%;
+  .singlepost-container{
+    position: relative;
+    .image{
+      img{
+        width: 100%;
+        height: 400px;
+        object-fit: fill;
+        border-radius: 10px;
+      }
+    }
+    .icons{
+      position: absolute;
+      right: 1%;
+      display: flex;
+      font-size: 1.2rem;
+      .edit{
+        margin-right: 10px;
+        color: $green;
+        cursor: pointer;
+      }
+      .delete{
+        color: $red;
+        cursor: pointer;
+      }
+    }
+    .time-and-author{
+      display: flex;
+      justify-content: space-between;
+      font-family: $tangerine;
+      font-size: 1.3rem;
+      margin: 0px 0 15px;
+    }
+    .post-title{
+      text-align: center;
+      margin: 20px auto;
+      font-family: $lugrasimo;
+      text-transform: uppercase;
+    }
+    .post-content{
+      p{
+        text-align: justify;
+        text-indent: 5%;
+      }
+    }
+  }
+}

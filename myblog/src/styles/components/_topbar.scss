@@ -1,0 +1,121 @@
+.topbar {
+  padding: 5px 4% ;
+  background: $vio;
+  font-family: $fondamento;
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  .topbar-container{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    .logo{
+      display: flex;
+      align-items: center;
+      img{
+        height: 80px;
+        width: 80px;
+      }
+    }
+    .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .navigation-links{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        a {
+          margin-right: 30px;
+          color: $black;
+          li {                                  
+            transition: 0.2s;
+            cursor: pointer;
+            font-family: $fondamento;
+            text-transform: capitalize;
+            font-size: 1.5rem;
+            font-weight: 400;
+            &:hover {
+              color: $blue;
+              position: relative;
+              &::after {
+                content: "";
+                position: absolute;
+                height: 4px;
+                width: 0%;
+                background: $blue;
+                border-radius: 10px;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                animation: 0.6s deco ease-in-out forwards;
+                @keyframes deco {
+                  to{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .nav-active {
+          position: relative;
+          &::after {
+            content: "";
+              position: absolute;
+              height: 4px;
+              width: 0%;
+              background: $blue;
+              border-radius: 10px;
+              bottom: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              animation: 0.6s deco ease-in-out forwards;
+              @keyframes deco {
+                to {
+                  width: 100%;
+                }
+              }
+          }
+        } 
+      }
+    }
+    .connexion{
+      display: flex;
+      justify-content: right;
+      overflow: hidden;
+      align-items: center;
+      text-transform: capitalize;
+      margin-top: 16px;
+      .connexion-container{
+        display: flex;
+        .text-login{
+          display: flex;
+          justify-content: space-between;
+          a{
+            color: $black;
+            &:first-child{
+              margin-right: 10px;
+            }
+            .login {
+                cursor: pointer;
+              }
+          }
+        }
+        
+        .user{
+          cursor: pointer;
+          margin-left: 12px;
+          .user-image{
+            img{
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
